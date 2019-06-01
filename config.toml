@@ -1,0 +1,28 @@
+baseURL = "https://yassuzuki.github.io/suzukiblog.github.io/"
+languageCode = "ja"
+title = "Suzuki Site"
+theme = "hugo-primer"
+
+hasCJKLanguage = true
+summaryLength = 70
+# Code pen
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+# Enter a copyright notice to display in the site footer.
+# To display a copyright symbol, type `&copy;`.
+copyright = "&copy;Your Name 2019"
+
+[frontmatter]
+# update sitemap.xml's lastmod datetime by file change time, instead of git.
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[params]
+description = "Describe what your web page is about"
+#twitter = "your_twitter_id"
+# You can use favicon by addin them manually.
+#useIcon = true
+#useTwitterCard = true
+
+#shareTo = ["Twitter", "Hatena", "Facebook", "Pocket"]
+#showFooterCredits = true
