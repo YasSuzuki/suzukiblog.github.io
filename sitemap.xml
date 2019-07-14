@@ -4,14 +4,43 @@
   
   <url>
     <loc>https://yassuzuki.github.io/suzukiblog.github.io/</loc>
-    <lastmod>2019-07-14T17:27:59+09:00</lastmod>
+    <lastmod>2019-07-14T22:28:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yassuzuki.github.io/suzukiblog.github.io/categories/</loc>
-    <lastmod>2019-07-14T17:27:59+09:00</lastmod>
+    <lastmod>2019-07-14T22:28:28+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yassuzuki.github.io/suzukiblog.github.io/categories/excel/</loc>
+    <lastmod>2019-07-14T22:28:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yassuzuki.github.io/suzukiblog.github.io/post/</loc>
+    <lastmod>2019-07-14T22:28:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yassuzuki.github.io/suzukiblog.github.io/tags/</loc>
+    <lastmod>2019-07-14T22:28:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yassuzuki.github.io/suzukiblog.github.io/tags/vlookup/</loc>
+    <lastmod>2019-07-14T22:28:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yassuzuki.github.io/suzukiblog.github.io/post/excelvlookup/</loc>
+    <lastmod>2019-07-14T22:28:28+09:00</lastmod>
   </url>
   
   <url>
@@ -27,19 +56,7 @@
   </url>
   
   <url>
-    <loc>https://yassuzuki.github.io/suzukiblog.github.io/post/</loc>
-    <lastmod>2019-07-14T17:27:59+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yassuzuki.github.io/suzukiblog.github.io/tags/shopping/</loc>
-    <lastmod>2019-07-14T17:27:59+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yassuzuki.github.io/suzukiblog.github.io/tags/</loc>
     <lastmod>2019-07-14T17:27:59+09:00</lastmod>
     <priority>0</priority>
   </url>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BIメモ</title>
-    <link>https://yassuzuki.github.io/suzukiblog.github.io/</link>
-    <description>Recent content on BIメモ</description>
+    <title>EXCEL on BIメモ</title>
+    <link>https://yassuzuki.github.io/suzukiblog.github.io/categories/excel/</link>
+    <description>Recent content in EXCEL on BIメモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 14 Jul 2019 19:01:15 +0900</lastBuildDate>
     
-	<atom:link href="https://yassuzuki.github.io/suzukiblog.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yassuzuki.github.io/suzukiblog.github.io/categories/excel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,34 +23,6 @@ vlookupについて 検索値に対応するテーブル内の値を取得する
 vlookupメリット  ひとつの関数で簡潔するのでシンプル ポピュラーな関数なので多数が理解しやすい  vlookupのデメリット  テーブル内の変更で再計算が発生(致命的!) テーブル列を削除すると計算エラー Key左方向の行は検索対象にできない  比較テスト それでは、vlookupとmatch＋index関数どちらが高速なのか？ 比較してみます。
  VLOOKUP(完全一致:型FALSE)とVLOOKUP(近似一致:型TRUE)そしてIndex+Match関数の3種類を比較 データは予め昇順ソートしておく データ件数が5000,50000,500000の3パターン データは1~最大値の連続値 計算実行数は50000,100000,250000,500000の4パターン ３回実行して平均値を結果とする 計算式は以下の通り。式はAutoFillでコピーする  VLOOKUP(完全一致:型FALSE) =VLOOKUP(検索値,$A:$B,2,0)  VLOOKUP(近似一致:型TRUE) =VLOOKUP(検索値,$A:$B,2,1)  INDEX+MATCH関数 =INDEX($B:$B,MATCH(検索値,$A:$A,0))  結果 数値は秒(second)
 検索対象数 5000    計算行数 VLOOKUP(FALSE) VLOOKUP(TRUE) INDEX+MATCH     50000 0 21 0   100000 0 42 0   250000 1 106 2   500000 5 219 10    検索対象数 50000    計算行数 VLOOKUP(FALSE) VLOOKUP(TRUE) INDEX+MATCH     50000 0 20 0   100000 0 39 1   250000 1 99 3   500000 5 205 10    検索対象数 500000    計算行数 VLOOKUP(FALSE) VLOOKUP(TRUE) INDEX+MATCH     50000 0 7 1   100000 1 12 2   250000 2 34 3   500000 5 74 11    1位　VLOOKUP(完全一致:型FALSE) 2位　INDEX+MATCH関数 3位　VLOOKUP(近似一致:型TRUE) VLOOKUP(完全一致)が一番速いという結果ですが、2位のINDEX+MATCH関数も十分速い。</description>
-    </item>
-    
-    <item>
-      <title>Test3 edit</title>
-      <link>https://yassuzuki.github.io/suzukiblog.github.io/post/test3/</link>
-      <pubDate>Sat, 01 Jun 2019 23:22:02 +0900</pubDate>
-      
-      <guid>https://yassuzuki.github.io/suzukiblog.github.io/post/test3/</guid>
-      <description> 更新テスト hoge7-14v2
-   Left align Right align Center align     This This This   column column column   will will will   be be be   left right center   aligned aligned aligned    </description>
-    </item>
-    
-    <item>
-      <title>新しい記事です</title>
-      <link>https://yassuzuki.github.io/suzukiblog.github.io/post/test2/</link>
-      <pubDate>Sat, 01 Jun 2019 22:42:13 +0900</pubDate>
-      
-      <guid>https://yassuzuki.github.io/suzukiblog.github.io/post/test2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://yassuzuki.github.io/suzukiblog.github.io/post/test/</link>
-      <pubDate>Sat, 01 Jun 2019 19:39:39 +0900</pubDate>
-      
-      <guid>https://yassuzuki.github.io/suzukiblog.github.io/post/test/</guid>
-      <description> ブログ始めました。 </description>
     </item>
     
   </channel>

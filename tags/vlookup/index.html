@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
       
-  Posts &ndash; BIメモ
+  VLOOKUP &ndash; BIメモ
 
     </title>
     
@@ -74,7 +74,7 @@
 
 <div>
 
-  <h1>Posts</h1>
+  <h1>VLOOKUP</h1>
   
 
   
@@ -116,118 +116,6 @@ vlookupメリット  ひとつの関数で簡潔するのでシンプル ポピ�
  VLOOKUP(完全一致:型FALSE)とVLOOKUP(近似一致:型TRUE)そしてIndex+Match関数の3種類を比較 データは予め昇順ソートしておく データ件数が5000,50000,500000の3パターン データは1~最大値の連続値 計算実行数は50000,100000,250000,500000の4パターン ３回実行して平均値を結果とする 計算式は以下の通り。式はAutoFillでコピーする  VLOOKUP(完全一致:型FALSE) =VLOOKUP(検索値,$A:$B,2,0)  VLOOKUP(近似一致:型TRUE) =VLOOKUP(検索値,$A:$B,2,1)  INDEX+MATCH関数 =INDEX($B:$B,MATCH(検索値,$A:$A,0))  結果 数値は秒(second)
 検索対象数 5000    計算行数 VLOOKUP(FALSE) VLOOKUP(TRUE) INDEX+MATCH     50000 0 21 0   100000 0 42 0   250000 1 106 2   500000 5 219 10    検索対象数 50000    計算行数 VLOOKUP(FALSE) VLOOKUP(TRUE) INDEX+MATCH     50000 0 20 0   100000 0 39 1   250000 1 99 3   500000 5 205 10    検索対象数 500000    計算行数 VLOOKUP(FALSE) VLOOKUP(TRUE) INDEX+MATCH     50000 0 7 1   100000 1 12 2   250000 2 34 3   500000 5 74 11    1位　VLOOKUP(完全一致:型FALSE) 2位　INDEX+MATCH関数 3位　VLOOKUP(近似一致:型TRUE) VLOOKUP(完全一致)が一番速いという結果ですが、2位のINDEX+MATCH関数も十分速い。
     <a class="muted-link" href="/suzukiblog.github.io/post/excelvlookup/">…</a>
-  </div>
-</div>
-
-  
-    
-    
-<div class="rounded-2 box-shadow-medium px-3 pb-2 pt-2 mb-3">
-  <div class="Subhead mb-2">
-    <div class="Subhead-heading">
-      <a href="/suzukiblog.github.io/post/test3/">
-        <div class="h2 mt-1 mb-1">Test3 edit</div>
-      </a>
-    </div>
-    <div class="Subhead-description">
-      
-
-
-<a href='/suzukiblog.github.io/categories/diary' class="muted-link">
-  <span class="Label Label--gray-darker">Diary</span>
-</a>
-
-
-
-<a href='/suzukiblog.github.io/tags/health' class="muted-link">
-  <span class="Label Label--gray">Health</span>
-</a>
-
-<a href='/suzukiblog.github.io/tags/shopping' class="muted-link">
-  <span class="Label Label--gray">Shopping</span>
-</a>
-
-
-      <div class="float-md-right">
-        <span>2019-06-01</span>
-      </div>
-    </div>
-  </div>
-  <div class="text-gray">
-    
-     更新テスト hoge7-14v2
-   Left align Right align Center align     This This This   column column column   will will will   be be be   left right center   aligned aligned aligned    
-    <a class="muted-link" href="/suzukiblog.github.io/post/test3/">…</a>
-  </div>
-</div>
-
-  
-    
-    
-<div class="rounded-2 box-shadow-medium px-3 pb-2 pt-2 mb-3">
-  <div class="Subhead mb-2">
-    <div class="Subhead-heading">
-      <a href="/suzukiblog.github.io/post/test2/">
-        <div class="h2 mt-1 mb-1">新しい記事です</div>
-      </a>
-    </div>
-    <div class="Subhead-description">
-      
-
-
-
-
-
-      <div class="float-md-right">
-        <span>2019-06-01</span>
-      </div>
-    </div>
-  </div>
-  <div class="text-gray">
-    
-    
-    <a class="muted-link" href="/suzukiblog.github.io/post/test2/">…</a>
-  </div>
-</div>
-
-  
-    
-    
-<div class="rounded-2 box-shadow-medium px-3 pb-2 pt-2 mb-3">
-  <div class="Subhead mb-2">
-    <div class="Subhead-heading">
-      <a href="/suzukiblog.github.io/post/test/">
-        <div class="h2 mt-1 mb-1">Test</div>
-      </a>
-    </div>
-    <div class="Subhead-description">
-      
-
-
-<a href='/suzukiblog.github.io/categories/diary' class="muted-link">
-  <span class="Label Label--gray-darker">Diary</span>
-</a>
-
-<a href='/suzukiblog.github.io/categories/health' class="muted-link">
-  <span class="Label Label--gray-darker">Health</span>
-</a>
-
-
-
-<a href='/suzukiblog.github.io/tags/shopping' class="muted-link">
-  <span class="Label Label--gray">Shopping</span>
-</a>
-
-
-      <div class="float-md-right">
-        <span>2019-06-01</span>
-      </div>
-    </div>
-  </div>
-  <div class="text-gray">
-    
-     ブログ始めました。 
-    <a class="muted-link" href="/suzukiblog.github.io/post/test/">…</a>
   </div>
 </div>
 
