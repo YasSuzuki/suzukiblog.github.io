@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Suzuki Site</title>
+    <link>https://yassuzuki.github.io/suzukiblog.github.io/post/</link>
+    <description>Recent content in Posts on Suzuki Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>&amp;copy;Your Name 2019</copyright>
+    <lastBuildDate>Sat, 01 Jun 2019 19:39:39 +0900</lastBuildDate>
+    
+	<atom:link href="https://yassuzuki.github.io/suzukiblog.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>https://yassuzuki.github.io/suzukiblog.github.io/post/test/</link>
+      <pubDate>Sat, 01 Jun 2019 19:39:39 +0900</pubDate>
+      
+      <guid>https://yassuzuki.github.io/suzukiblog.github.io/post/test/</guid>
+      <description>ブログ始めました。</description>
+    </item>
+    
+  </channel>
+</rss>
